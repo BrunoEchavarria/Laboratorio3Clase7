@@ -1,0 +1,75 @@
+.caja{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    margin:5px;
+}
+.container{
+    display: flex;
+}
+
+.circulo{
+    width: 25px;
+    height: 25px;
+    background-color: #fff;
+    margin:5px;
+    border-radius: 50%;
+}
+/*---------------------------------------------------*/
+.dado1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*--------------------------------------------------*/
+.dado2{
+    display: flex;
+    justify-content: space-between;
+}
+.circulo3{
+    display: flex;
+    align-self: flex-end;
+}
+/*---------------------------------------------------*/
+.dado3{
+    display: flex;
+    justify-content: space-between;
+}
+.circulo5{
+    display: flex;
+    align-self: center;
+}
+.circulo6{
+    display: flex;
+    align-self: flex-end;
+}
+/*-------------------------------------------------*/
+.dado4{
+    display: flex;
+    justify-content: space-between;   
+}
+.superior{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.inferior{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*-----------------------------------------------*/
+.dado5{
+    display: flex;
+    justify-content: space-between;
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/*-----------------------------------------------*/
+.dado6{
+    display: flex;
+    justify-content: space-between;
+}
